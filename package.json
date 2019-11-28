@@ -1,0 +1,23 @@
+{
+  "name": "chat-me",
+  "version": "1.0.0",
+  "description": "simple real-time chat app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jide ajayi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "nodemon": "^2.0.1"
+  }
+}
