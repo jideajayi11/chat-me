@@ -1,6 +1,6 @@
 const typeDefs = `
   type Query {
-    users: [User]
+    users(first: Int): [User]
     messages: [Message]
   }
   type User {

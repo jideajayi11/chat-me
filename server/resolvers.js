@@ -3,7 +3,7 @@ import { User, Message } from './models';
 
 const resolvers = {
   Query: {
-    users: () => User.find(),
+    users: async (_, { first }) => User.find(),
     messages: () => Message.find()
   },
 
